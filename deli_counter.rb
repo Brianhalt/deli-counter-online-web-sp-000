@@ -1,14 +1,16 @@
 # Write your code here.
 require 'pry'
+# binding.pry
 katz_deli = []
 
 def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
+    current_line = "The line is currently: "
     katz_deli.each_with_index do |names, i|
-    # binding.pry
-    puts "The line is currently: #{i+1}. #{names}"
+    current_line << "#{i+1}. #{names}"
+    puts "The line is currently: #{current_line}"
     end
   end
 end
