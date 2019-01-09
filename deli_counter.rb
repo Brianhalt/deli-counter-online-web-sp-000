@@ -6,7 +6,7 @@ def line(katz_deli)
   # binding.pry
   if katz_deli == []
     puts "The line is currently empty."
-  elsif katz_deli > 1
+  elsif katz_deli.length > 1
     puts "katz_deli"
   end
 end
