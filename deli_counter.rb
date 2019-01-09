@@ -6,15 +6,15 @@ def line(katz_deli)
   # binding.pry
   if katz_deli == []
     puts "The line is currently empty."
-  elsif katz_deli.length > 1
-    puts "katz_deli"
+  else
+    puts "The line is currently: "
   end
 end
 
 def take_a_number(katz_deli,name)
-
+  puts "Welcome, #{name}. You are number "
 end
 
 def now_serving(katz_deli)
-
+  puts "Currently serving #{name}"
 end
