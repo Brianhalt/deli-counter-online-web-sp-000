@@ -7,9 +7,9 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-    current_line = "The line is currently: "
+    current_line = "The line is currently:"
     katz_deli.each_with_index do |names, i|
-      current_line << "#{i+1}. #{names} "
+      current_line << " #{i+1}. #{names}"
     end
     puts "#{current_line}"
   end
