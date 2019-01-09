@@ -10,8 +10,8 @@ def line(katz_deli)
     current_line = "The line is currently: "
     katz_deli.each_with_index do |names, i|
       current_line << "#{i+1}. #{names}"
-      puts "#{current_line}"
     end
+    puts "#{current_line}"
   end
 end
 
