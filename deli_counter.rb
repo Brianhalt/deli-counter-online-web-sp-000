@@ -3,12 +3,12 @@ require 'pry'
 katz_deli = []
 
 def line(katz_deli)
-  # binding.pry
   if katz_deli == []
     puts "The line is currently empty."
   else
     katz_deli.each_with_index do |names, i|
     puts "The line is currently: (#{i+1}.) #{names}"
+    binding.pry
     end
   end
 end
