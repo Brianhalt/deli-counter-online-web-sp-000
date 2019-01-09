@@ -4,7 +4,8 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli < 1
     puts "The line is currently empty."
-  elsif
+  elsif katz_deli > 1
+    puts "katz_deli"
   end
 end
 
@@ -14,4 +15,4 @@ end
 
 def now_serving(katz_deli)
 
-end  
+end
