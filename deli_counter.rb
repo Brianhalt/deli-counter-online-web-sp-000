@@ -11,7 +11,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |names, i|
       current_line << "#{i+1}. #{names}"
     end
-    puts "#{current_line} "
+    puts " #{current_line}"
   end
 end
 
